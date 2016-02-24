@@ -1,0 +1,46 @@
+
+================== ASTRAL ===================== 
+
+This is ASTRAL version 4.7.12
+Gene trees are treated as unrooted
+192 trees read from ml_trees_bs.concat.tre
+All outputted trees will be *arbitrarily* rooted at Cryptococcus_neoformans_JEC21
+
+======== Running the main analysis
+Number of taxa: 46 (46 species)
+Taxa: [Cryptococcus_neoformans_JEC21, Yarrowia_lipolytica_CLIB122, Schizosaccharomyces_pombe_972h_.vASM294v2, Saccharomyces_cerevisiae_S288C.vR64_2_1, Pandora_formicae.v1.TFASTX, Arthrobotrys_oligospora_ATCC_24927.Artol1, Neurospora_crassa_OR74A, Ustilago_maydis_521.v190413, Coprinopsis_cinerea_okayama7_130, Piptocephalis_cylindrospora, Homoloaphlyctis_polyrhiza_JEL142.v2, Batrachochytrium_dendrobatidis_JAM81, Spizellomyces_punctatus_DAOM_BR117.v1, Rhizopus_microsporus_var_chinensis_CCTCC_M201021.Rhich1, Monosiga_brevicolis_MX1.v1, Rozella_allomycis_CSF55, Allomyces_macrogynus_ATCC_38327.v3, Basidiobolus_heterosporus_B8920.v1.TFASTX, Basidiobolus_meristosporus_CBS_931.73, Mortierella_elongata, Mortierella_verticillata_NRRL_6337, Linderina_pennispora_ATCC_12442, Coemansia_reversa_NRRL_1564, Martensiomyces_pterosporus_CBS_209.56, Ramicandelaber_brevisporus_CBS_109374, Umbelopsis_ramanniana_NRRL_5844, Phycomyces_blakesleeanus_NRRL_1555, Saksenaea_vasiformis_B4078, Rhizopus_microsporus_var_microsporus_ATCC_52813, Mucor_circinelloides_CBS277.49, Rhizopus_delemar_RA_99_880, Backusella_circina_FSU_941, Piromyces_sp_E2, Rhizophagus_irregularis_DAOM_181602, Puccinia_graminis_f._sp._tritici_CRL_75_36_700_3, Drosophila_melanogaster.vr6.04, Capsaspora_owczarzaki_ATCC_30864.v2, Gonapodya_prolifera_JEL478, Orpinomyces_sp_C1A.Orpsp1_1, Hesseltinella_vesiculosa_NRRL_3301, Lichtheimia_hyalospora_FSU_10163, Lichtheimia_corymbifera_FSU_9682, Catenaria_anguillulae_PL171, Conidiobolus_thromboides_FSU_785, Zoophthora_radicans_ATCC_208865.TFASTX, Conidiobolus_coronatus_NRRL_28638]
+Number of gene trees: 192
+159 trees have missing taxa
+Calculating quartet distance matrix (for completion of X)
+Species tree distances calculated ...
+Will attempt to complete bipartitions from X before adding using a distance matrix.
+Building set of clusters (X) from gene trees 
+Using tree-based weight calculation.
+Number of Default Clusters: 4583
+Number of quartet trees in the gene trees: 25922907
+calculating extra bipartitions to be added at level 1 ...
+Number of Clusters after addition by distance: 4583
+Adding to X using resolutions of greedy consensus ...
+Threshold 0.0:
+Threshold 0.01:
+Threshold 0.02:
+Threshold 0.05:
+polytomy of size 3; rounds with additions with at least 0.01 support: 0; clusters: 4583
+Threshold 0.1:
+polytomy of size 8; rounds with additions with at least 0.01 support: 0; clusters: 4583
+Threshold 0.2:
+polytomy of size 4; rounds with additions with at least 0.01 support: 0; clusters: 4583
+polytomy of size 11; rounds with additions with at least 0.01 support: 0; clusters: 4583
+Threshold 0.3333333333333333:
+polytomy of size 5; rounds with additions with at least 0.01 support: 0; clusters: 4583
+polytomy of size 14; rounds with additions with at least 0.01 support: 0; clusters: 4889
+polytomy of size 3; rounds with additions with at least 0.01 support: 0; clusters: 4889
+Number of Clusters after addition by greedy: 4889
+partitions formed in 5.985 secs
+Dynamic Programming starting after 5.985 secs
+Size of largest cluster: 46
+Total Number of elements weighted: 12330
+Normalized score (portion of input quartet trees satisfied): 0.6820648625557311
+Final optimization score: 17681104
+Optimal tree inferred in 18.006 secs
+ASTRAL finished in 20.295 secs
